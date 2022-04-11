@@ -1,0 +1,102 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    padding: 5px;
+    
+  }
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 4px;
+    font-size: 1vw;
+    text-align: center;
+        
+    height: 6vw;
+  }
+  .grid-item span{
+
+
+  }
+  .profile{
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+      
+  }
+  .profile_image{
+    width: 9vw;
+    height: 9vw;
+    background-color: aliceblue;
+    margin: auto;
+    position: relative;
+    top: 2vw;
+    border-radius: 50%;
+  }
+  .conainer{
+      display: flex;
+      width: 100%;
+      /* height: 25vw; */
+
+  }
+  .left_container{
+      width: 40%;
+      /* height: 100%; */
+      background-color: white;
+      margin-left: 1%;
+      border-radius: 10px;
+      box-shadow: 1px 1px 5px rgb(49, 115, 214);
+  }
+  .right_container{
+      width: 58%;
+      margin-left: 1%;
+      /* height: 100%; */
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 1px 1px 5px rgb(49, 115, 214);
+      
+
+  }
+  .profile_address{
+      font-size: 1vw;
+  }
+ .profile_count{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .profile_count_past{
+     margin: auto;
+     font-size: 1vw;
+ }
+ .profile_count_upcoming{
+     margin:auto;
+     font-size: 1vw;
+ }
+ .profile_btn{
+    
+  width: 100%;
+  margin-top: 2vw;
+ }
+ .profile_btn button{
+     background-color: transparent;
+     outline: none;
+     width: 80%;
+     height: 2vw;
+     border: 1px solid black;
+     margin: 4px;
+     font-size: 1vw;
+ }
+ .profile_name h1{
+     padding-top: 1vw;
+     font-size: 1.5vw;
+ }
+ .verticle_line{
+     width: 0.1vw;
+     height: 30px;
+     background-color: rgb(68, 68, 68);
+     opacity: 0.6;
+ }
+ .bold600{
+     font-weight: 600;
+ }

@@ -1,0 +1,53 @@
+.note{
+    width: 100%;
+}
+.nt{
+    display: flex;
+    width: 100%;
+    font-size: 1vw;
+    margin-bottom: 20px;
+
+}
+.nthalfleft{
+    width: 50%;
+}
+.nthalfright{
+    width: 50%;
+    text-align: right;
+     color: blue;
+     font-weight: bold;
+}
+.nm{
+    width: 98%;
+    margin:auto;
+    background-color: rgb(231, 234, 240);
+    padding: 4px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(119, 189, 255);
+    
+}
+.nm ul{
+    list-style:none;
+}
+.nm button{
+    position: relative;
+    top: 0px;
+    left: 70%;
+    background-color: rgb(34, 141, 228);
+    border-style: none;
+    font-size: 1vw;
+    color: white;
+    height: 2vw;
+    border-radius:5px;
+    box-shadow: 1px 1px 4px black;
+}
+.nb{
+    display: flex;
+    font-size: 1vw;
+}
+.nbhalfright span{
+    position: relative;
+    top: 60%;
+    left: 200%;
+}

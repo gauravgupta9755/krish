@@ -1,0 +1,66 @@
+.appoint{
+    background-color: rgb(231, 234, 240);
+    margin-top: 1vw;
+}
+.atop{
+    display: flex;
+    width: 100%;
+    padding: 4px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+}
+.atopleft{
+    width: 50%;
+    font-size: 1vw;
+    
+}
+.atopright{
+    font-size: 1vw;
+    width: 50%;
+}
+.abuttom{
+    display: flex;
+}
+.adetail{
+  width: 96%;
+}
+.apdetail{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    margin:1vw;
+    font-size: 1vw;
+}
+.mauto{
+    margin: auto;
+}
+.atopright button{
+    margin-left:30%;
+    height: 2vw;
+    border-radius: 5px;
+    text-align: right;
+    background-color: white;
+    border-style: none;
+    width: 60%;
+    font-size: 1vw;
+}
+.circularline{
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.blue_line{
+    width: 2px;
+    height: 30px;
+    background-color: blue;
+    margin: auto;
+}
+.circ{
+    width: 4px ;
+    height: 4px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    margin: auto;
+    
+}

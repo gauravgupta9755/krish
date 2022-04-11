@@ -1,0 +1,173 @@
+body{
+    background-color: rgb(231, 234, 240);
+    overflow-y:scroll;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.main{
+    display:  flex;
+    width: 96%;
+    margin:auto;
+    border:10px solid rgb(55, 122, 247);
+    border-radius: 25px;
+    
+}
+.slidebar{
+    
+    background-color: rgb(255, 255, 255);
+    width: 17%;
+}
+.body{
+    width:85%;
+    
+    background-color: rgb(231, 234, 240);
+}
+/* .top{
+    height: 36%;
+} */
+.top1{
+    display:  flex;
+    width:100%;
+    padding: 2px;
+    
+   align-items: center;
+   justify-content: center;    
+
+}
+.head_name{
+    font-weight: 600;
+    font-size: 1vw;
+}
+.top2{
+    display:  flex;
+    width: 100%;
+    padding: 2px;
+
+}
+.print{
+    margin-left: auto;
+    background-color:white;
+    padding: 3px;
+    font-size: 1vw;
+}
+.edit{
+    background-color: white;
+    padding: 3px;
+    font-size: 1vw;
+
+}
+.top1right{
+    display:  flex;
+    width: 50%;
+    
+}
+.mr2vw{
+    margin-right: 2vw;
+}
+
+.top1right input{
+    margin-left:auto;
+    margin-right: 2vw;
+    height: 30px;
+    width: 40%;
+    border-style: none;
+    border-radius: 15px;
+    outline: none;
+
+}
+.plus{
+    margin-right:2vw;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(25, 125, 255);
+    font-size: 20px;
+
+}
+.plus:hover{
+    cursor: pointer;
+}
+.well{
+    margin-right:2vw;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.top1left{
+    display: flex;
+    width: 50%;
+
+}
+.top2left{
+    display:  flex;
+    width: 50%;
+    padding-left:2vw;
+
+}
+.top2right{
+    display: flex;
+    width: 50%;
+
+}
+
+.buttom{
+    width: 100%;
+    display: flex;
+}
+.buttom_left{
+    width: 65%;
+}
+.buttom_right{
+    width: 35%;
+}
+
+.appointment{
+    margin  : 1vw;
+    padding: 2vw;
+    background-color: white;
+    border-radius: 15px;
+}
+.appointment_top{
+    width: 100%;
+}
+.appointment_list{
+    background-color:rgb(231, 234, 240) ;
+    width: fit-content;
+    border: 1px soild black;
+
+    padding: 4px;
+}
+.appointment_list button{
+    background-color: transparent;
+    border-style: none;
+    width: auto;
+    height: 2vw;
+    font-size: 1vw;
+}
+.notes{
+    margin: 1vw;
+    margin-top: 0px;
+
+    background-color: white;
+    padding: 4px;
+    border-radius: 15px ;
+    box-shadow: 1px 1px 5px rgb(49, 115, 214);
+}
+.files{
+    margin: 1vw;
+    margin-top: 0px;
+    background-color: white;
+    padding: 4px;
+    box-shadow: 1px 1px 5px rgb(49, 115, 214);
+    border-radius: 10px ;
+
+
+}
